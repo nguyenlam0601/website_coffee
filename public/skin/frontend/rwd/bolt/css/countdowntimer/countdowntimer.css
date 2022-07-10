@@ -1,0 +1,654 @@
+/* css for temp1 */
+#magik-time-remaining-temp-1 {
+    color: #333;
+    font-size: 14px;
+    font-weight: bold;
+}
+#magik-time-remaining-temp-1 .digit-holder {
+    overflow: hidden;
+    left: 15px;
+	margin-top:53px;
+	margin-bottom:4px;
+	position:relative;
+	
+}
+.countdowntimer .description {
+    position: absolute;
+    top: 34%;
+    width: 80%;
+    font-size: 14px;
+    line-height: 25px;
+    letter-spacing: 0.3px;
+    margin: 5px auto 25px;
+    font-weight: normal;
+    left: 10%;
+}
+
+#magik-time-remaining-temp-1 .digit-holder .heading-digit {
+    background: #fbfbfb;
+    font-size: 9px;
+    color: #808080;
+    min-width: 55px;
+    min-height: 50px;
+    text-align: center;
+    margin-top: 7px;
+    font-weight: 700;
+    text-transform: uppercase;
+    border-radius: 0;
+    border: 1px #e8e8e8 solid;
+    display: block;
+    border-radius: 2px; 
+}
+
+#magik-time-remaining-temp-1 .digit-holder .heading-digit1 .numbers{
+	padding:5px;
+	padding-bottom:0px;
+}
+#magik-time-remaining-temp-1 .digit-holder .heading-digit1 {
+    font-size: 9px;
+    min-width: 55px;
+    min-height: 50px;
+    text-align: center;
+    margin-top: 7px;
+    font-weight: 700;
+    text-transform: uppercase;
+    border-radius: 0;
+    display: block;
+    border-radius: 2px;
+    background: #15abf6;
+    color: #fff;
+    border: 1px #15abf6 solid; 
+}
+#magik-time-remaining-temp-1 .digit-holder .heading-digit1 .heading-number {
+    color: #fff;
+}
+#magik-time-remaining-temp-1 .digit-holder .heading-digit1 .heading-label {
+	color: #fff;
+}
+#magik-time-remaining-temp-1 .heading-colon, #magik-time-remaining-temp-1 .heading-colon1 {
+	display:none;
+}
+#magik-time-remaining-temp-1 .digit-holder .heading-digit .numbers{
+	display: block;
+    font-size: 16px;
+    color: #3f3f3f;
+    margin-top: 6px;
+}
+
+#magik-time-remaining-temp-1 .heading-label {
+    font-size: 9px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+#magik-time-remaining-temp-1 .heading {
+    font-size: 10px;
+    color: #fff;
+    background: #ff4318;
+    text-transform: uppercase;
+    padding: 3px 10px;
+    text-align: center;
+    display: block;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    border-radius: 0px;
+    letter-spacing: 1px;
+    line-height: normal;
+}
+
+#magik-time-remaining-temp-1 .digit-holder .heading-number {
+    display: block;
+    font-size: 16px;
+    color: #3f3f3f;
+}
+
+#magik-time-remaining-temp-1 .error_msg {
+    background: none repeat scroll 0 0 #FFDDCC;
+    border: 1px solid #EECCBB;
+    font-size:12px;
+    padding:5px
+}
+
+/* css for temp2 */
+#magik-time-remaining-temp-2 {
+    color: #333;
+    font-size: 14px;
+    font-weight: bold;
+	font-family:Arial, Helvetica, sans-serif;
+	overflow:hidden;
+	display:block
+}
+#magik-time-remaining-temp-2 .digit-holder {
+overflow:hidden
+}
+
+#magik-time-remaining-temp-2 .digit-holder .heading-digit {
+    float: left;
+    height: 50px;
+    position: relative;
+    width:auto;
+    text-align:center
+}
+
+#magik-time-remaining-temp-2 .digit-holder .heading-digit .numbers{
+  background: url("digit_bg.png") no-repeat scroll 0 0 transparent;
+    float: left;
+    height: 30px;
+    position: relative;
+    width: 24px;
+	display:block;
+}
+#magik-time-remaining-temp-2 .digit-holder .heading-digit .numbers2{
+    background: url("digit_bg.png") no-repeat scroll 0 0 transparent;
+    float: left;
+    height: 30px;
+    position: relative;
+    width: 24px;
+}
+
+#magik-time-remaining-temp-2 .heading-colon {
+    float: left;
+    height: 47px;
+    margin: 0 3px 0 1px;
+    position: relative;
+    padding-top: 3px;
+    width: 5px;
+	color:#888;
+	font-size:18px
+}
+#magik-time-remaining-temp-2 .heading-label {
+    color: #808080;
+    font-size: 10px;
+    text-align: center;
+    margin-top: 2px;
+}
+
+#magik-time-remaining-temp-2 .heading {
+    background: url("clock.png") no-repeat 0px 2px transparent;
+	padding-left: 18px;
+	text-align:left; 
+	font-size:14px;
+	color:#f99007;
+	margin-bottom:5px
+   
+}
+
+#magik-time-remaining-temp-2 .digit-holder .heading-number {
+    color: #4C4C4C;
+    font-size: 18px;
+    font-weight: bold;
+    line-height: 17px;
+    padding-top: 5px;
+    text-align: center;
+    text-shadow: 0 1px 0 #FFFFFF;
+}
+
+#magik-time-remaining-temp-2 .error_msg{
+    background: none repeat scroll 0 0 #FFDDCC;
+    border: 1px solid #EECCBB; font-size:12px; padding:5px
+}
+
+/* css for temp3 */
+#magik-time-remaining-temp-3 {
+    color: #333;
+    font-size: 14px;
+    font-weight: bold;
+    font-family:Arial, Helvetica, sans-serif;
+    overflow:hidden
+}
+
+#magik-time-remaining-temp-3 .digit-holder {
+overflow:hidden
+
+}
+
+#magik-time-remaining-temp-3 .digit-holder .heading-digit {
+    float: left;
+    height: 30px;
+    position: relative;
+    width:auto;
+	border-right:1px #fff solid
+}
+
+#magik-time-remaining-temp-3 .digit-holder .heading-digit .numbers{
+    background: none repeat scroll 0 0 #EAEAEA;
+    border-right: 1px solid #FFFFFF;
+    float: left;
+    height: 17px;
+    position: relative;
+    width: 14px;
+	border-radius:1px 0px 0px 1px;
+	-moz-border-radius:1px 0px 0px 1px;
+	-webkit-border-radius:1px 0px 0px 1px
+}
+
+#magik-time-remaining-temp-3 .heading-colon {
+    float: left;
+    height: 30px;
+    margin: 0 2px 0 1px;
+    position: relative;
+    top: 0px;
+    width: 4px;
+    color:#888
+}
+#magik-time-remaining-temp-3 .heading-label {
+    color: #808080;
+    font-size: 10px;
+    text-align: center;
+    margin-top: 2px;
+}
+
+#magik-time-remaining-temp-3 .heading {
+    background: url("clock1.png") no-repeat 0px 2px transparent;
+	padding-left: 18px;
+	text-align:left;
+	height:18px;
+	font-size:12px;
+	color:#f99007
+   
+}
+
+#magik-time-remaining-temp-3 .digit-holder .heading-number {
+    color: #4C4C4C;
+    font-size: 12px;
+    font-weight: bold;
+    line-height: 17px;
+    padding-top: 0px;
+    text-align: center;
+    text-shadow: 0 1px 0 #FFFFFF;
+}
+
+#magik-time-remaining-temp-3 .error_msg{
+    background: none repeat scroll 0 0 #FFDDCC;
+    border: 1px solid #EECCBB; font-size:12px; padding:5px
+}
+
+
+/* css for 4 */
+#magik-time-remaining-temp-4 {
+    color: #333;
+    font-size: 14px;
+    font-weight: bold;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+#magik-time-remaining-temp-4 .digit-holder {
+overflow:hidden
+}
+
+#magik-time-remaining-temp-4 .digit-holder .heading-digit {
+    float: left;
+    position: relative;
+    width:auto;
+	margin-right:5px;
+	background:#f8f8f8;
+	padding-bottom:4px;
+	border:1px #eaeaea solid
+}
+
+#magik-time-remaining-temp-4 .digit-holder .heading-digit .numbers{
+    position: relative;
+	border-radius:2px;
+	-moz-border-radius:2px;
+	-webkit-border-radius:2px;
+	padding:4px;
+	border-bottom:1px #eaeaea solid
+}
+
+#magik-time-remaining-temp-4 .heading-label {
+    color: #888;
+    font-size: 10px;
+    text-align: center;
+	text-transform:uppercase;
+	padding-top:4px
+}
+
+#magik-time-remaining-temp-4 .heading {
+    background: url("clock2.png") no-repeat 0px 2px transparent;
+	padding:0px;
+	padding-left: 18px;
+	text-align:left;
+	font-size:14px;
+	color:#333;
+	padding-bottom:5px
+}
+
+#magik-time-remaining-temp-4 .digit-holder .heading-number {
+    color: #12b5f2;
+    font-size: 28px;
+    font-weight: normal;
+    line-height:normal;
+    padding-top: 0px;
+    text-align: center;
+    text-shadow: 0 1px 0 #FFFFFF;
+}
+
+#magik-time-remaining-temp-4 .error_msg{
+    background: none repeat scroll 0 0 #FFDDCC;
+    border: 1px solid #EECCBB; font-size:12px; padding:5px
+}
+
+/* css for temp5 */
+#magik-time-remaining-temp-5 {
+    color: #333;
+    font-size: 14px;
+    font-weight: bold;
+    font-family:Arial, Helvetica, sans-serif;
+    verflow:hidden;
+    display:block
+}
+#magik-time-remaining-temp-5 .digit-holder {
+overflow:hidden
+}
+
+#magik-time-remaining-temp-5 .digit-holder .heading-digit {
+    float: left;
+    position: relative;
+    width:auto;
+    text-align:center
+}
+
+#magik-time-remaining-temp-5 .digit-holder .heading-digit .numbers{
+  background: url("digit_bg1.png") no-repeat scroll 0 0 transparent;
+    float: left;
+    height: 44px;
+    position: relative;
+    width: 29px;
+	display:block;
+	margin-right:3px
+}
+
+#magik-time-remaining-temp-5 .heading-colon {
+    float: left;
+    height: 38px;
+    margin: 0 3px 0 1px;
+    position: relative;
+    padding-top: 6px;
+    width: 6px;
+	color:#333;
+	font-size:20px;
+	font-weight:bold
+}
+
+#magik-time-remaining-temp-5 .heading-label {
+    color: #808080;
+    font-size: 12px;
+    text-align: center;
+    margin-top: 4px;
+	font-weight:normal;
+	line-height:17px
+}
+
+#magik-time-remaining-temp-5 .heading {
+    background: url("clock.png") no-repeat 0px 2px transparent;
+	padding-left: 18px;
+	text-align:left; 
+	font-size:14px;
+	color:#f99007;
+	margin-bottom:5px
+}
+
+#magik-time-remaining-temp-5 .digit-holder .heading-number {
+    color: #fff;
+    font-size: 22px;
+    font-weight: normal;
+    line-height: 17px;
+    padding-top: 14px;
+    text-align: center;
+    text-shadow: 0 -1px 0 #000;
+}
+#magik-time-remaining-temp-5 .error_msg{
+    background: none repeat scroll 0 0 #FFDDCC;
+    border: 1px solid #EECCBB; font-size:12px; padding:5px
+}
+
+/* css for temp6 */
+#magik-time-remaining-temp-6 {
+    color: #333;
+    font-size: 14px;
+    font-weight: bold;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+#magik-time-remaining-temp-6 .digit-holder {
+overflow:hidden;
+}
+
+#magik-time-remaining-temp-6 .digit-holder .heading-digit {
+    float: left;
+    position: relative;
+    width:auto;
+	margin-right:5px;
+	padding-bottom:4px;
+}
+
+#magik-time-remaining-temp-6 .digit-holder .heading-digit .numbers{
+    position: relative;
+	border-radius:2px;
+	-moz-border-radius:2px;
+	-webkit-border-radius:2px;
+	padding:4px;
+		background:#f8f8f8;
+		border:1px #eaeaea solid
+}
+
+#magik-time-remaining-temp-6 .heading-colon {
+    float: left;
+    height: 13px;
+    margin: 0 2px 0 0px;
+    position: relative;
+    padding-top:0px;
+    width: 4px;
+	color:#666;
+	font-weight:normal;
+	font-size:18px;
+	line-height:normal
+}
+#magik-time-remaining-temp-6 .heading-label {
+    color: #888;
+    font-size: 10px;
+    text-align: center;
+	text-transform:uppercase;
+	padding-top:3px
+
+}
+
+#magik-time-remaining-temp-6 .heading {
+    background: url("clock2.png") no-repeat 0px 2px transparent;
+	padding:0px;
+	padding-left: 18px;
+	text-align:left;
+	font-size:14px;
+	color:#333;
+	padding-bottom:5px
+}
+
+#magik-time-remaining-temp-6 .digit-holder .heading-number {
+    color: #ec260c;
+    font-size: 28px;
+    font-weight: normal;
+    line-height:normal;
+    padding-top: 0px;
+    text-align: center;
+    text-shadow: 0 1px 0 #FFFFFF;
+}
+
+#magik-time-remaining-temp-6 .error_msg{
+    background: none repeat scroll 0 0 #FFDDCC;
+    border: 1px solid #EECCBB; font-size:12px; padding:5px
+}
+
+/* css for temp 7 */
+#magik-time-remaining-temp-7 {
+    color: #333;
+    font-size: 14px;
+    font-weight: bold;
+    font-family:Arial, Helvetica, sans-serif;
+    display:inline-block
+}
+#magik-time-remaining-temp-7 .digit-holder {
+background: url("digit_bg2.png") repeat-x scroll 0 0 transparent;
+display:inline-block;
+}
+
+#magik-time-remaining-temp-7 .digit-holder .heading-digit {
+    float: left;
+    position: relative;
+    width:auto;
+	padding-bottom:4px;
+	padding-left:5px;
+	padding-right:5px
+}
+
+#magik-time-remaining-temp-7 .digit-holder .heading-digit .numbers{
+    position: relative;
+	padding:4px;
+	background:url("seprator.png") no-repeat top right;
+	padding-right:12px
+}
+
+#magik-time-remaining-temp-7 .heading-colon {
+    float: left;
+    height: 13px;
+    margin: 0 2px 0 0px;
+    position: relative;
+    padding-top:8px;
+    width: 4px;
+	color:#666;
+	font-weight:normal;
+	font-size:18px;
+	line-height:normal
+}
+#magik-time-remaining-temp-7 .heading-label {
+    color: #888;
+    font-size: 10px;
+    text-align: center;
+	text-transform:uppercase;
+
+
+}
+
+#magik-time-remaining-temp-7 .heading {
+    background:#64c14c url("clock2.png") no-repeat 0px 2px ;
+	padding:0px;
+	text-align:left;
+	font-size:14px;
+	color:#fff;
+	padding:5px;
+	padding-left: 22px;
+	border-radius:3px 3px 0px 0px;
+	-moz-border-radius:3px 3px 0px 0px;
+	-webkit-border-radius:3px 3px 0px 0px
+}
+
+#magik-time-remaining-temp-7 .digit-holder .heading-number {
+    color: #ffffff;
+    font-size: 26px;
+    font-weight: bold;
+    line-height:normal;
+    padding-top: 5px;
+    text-align: center;
+    text-shadow: 0 -1px #000;
+	padding-bottom:7px
+}
+
+.#magik-time-remaining-temp-7 .error_msg { 
+    background: none repeat scroll 0 0 #FFDDCC;
+    border: 1px solid #EECCBB; font-size:12px; padding:5px
+}
+
+/* css for temp-8 */
+#magik-time-remaining-temp-8 {
+    color: #333;
+    font-size: 14px;
+    font-weight: bold;
+    font-family:Arial, Helvetica, sans-serif;
+    overflow:hidden;
+    display:block
+	
+	
+}
+#magik-time-remaining-temp-8 .digit-holder {
+overflow:hidden
+
+}
+
+#magik-time-remaining-temp-8 .digit-holder .heading-digit {
+    float: left;
+    height: 50px;
+    position: relative;
+    width:auto;
+	text-align:center
+}
+
+#magik-time-remaining-temp-8 .digit-holder .heading-digit .numbers{
+  background: url("digit_bg3.png") no-repeat scroll 0 0 transparent;
+    float: left;
+    height: 30px;
+    position: relative;
+    width: 24px;
+	display:block;
+}
+
+#magik-time-remaining-temp-8 .heading-colon {
+    float: left;
+    height: 47px;
+    margin: 0 3px 0 1px;
+    position: relative;
+    padding-top: 3px;
+    width: 5px;
+	color:#888;
+	font-size:18px
+}
+#magik-time-remaining-temp-8 .heading-label {
+    color: #808080;
+    font-size: 10px;
+    text-align: center;
+    margin-top: 2px;
+}
+
+#magik-time-remaining-temp-8 .heading {
+    background: url("clock.png") no-repeat top left transparent;
+	padding-left: 18px;
+	text-align:left; 
+	font-size:14px;
+	color:#f99007;
+	margin-bottom:5px
+}
+
+#magik-time-remaining-temp-8 .digit-holder .heading-number {
+    color: #fff;
+    font-size: 18px;
+    font-weight: bold;
+    line-height: 17px;
+    padding-top: 5px;
+    text-align: center;
+    text-shadow: 0 -1px 0 #000;
+}
+
+#magik-time-remaining-temp-8 .error_msg{
+    background: none repeat scroll 0 0 #FFDDCC;
+    border: 1px solid #EECCBB; font-size:12px; padding:5px
+}
+
+/* css for temp 9 */
+
+#magik-time-remaining-temp-9 .heading {
+/* 	padding-left: 18px; */
+/* 	text-align:left;  */
+	font-size:14px;
+	color:#f99007;
+/* 	margin-bottom:5px */
+}
+
+#magik-time-remaining-temp-9 .countdown-content {
+    font-weight:bold;
+    font-size:14px;
+    margin-bottom:5px
+}
+
+#magik-time-remaining-temp-9 .error_msg{
+    background: none repeat scroll 0 0 #FFDDCC;
+    border: 1px solid #EECCBB; font-size:12px; padding:5px
+}
